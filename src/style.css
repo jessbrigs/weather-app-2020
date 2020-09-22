@@ -22,7 +22,6 @@
 
 .submit-button {
   position: relative;
-  right: -110px;
   border-radius: 25px;
   padding: 10px 15px;
   background-color: #ffffff;
@@ -33,10 +32,8 @@
   font-weight: 300;
   transition: 0.2ms ease-in-out;
 }
-
 .current-location-btn {
   position: relative;
-  right: -400px;
   border-radius: 25px;
   padding: 10px 15px;
   background-color: #ffffff;
