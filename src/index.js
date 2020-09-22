@@ -33,7 +33,9 @@ let hours = now.getHours();
 let minutes = now.getMinutes();
 
 if (hours < 10) {
-  hours = `-${hours}`;
+  hours = `${hours}`;
+}
+{
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
@@ -46,6 +48,12 @@ function displayCurrentWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#current-temp").innerHTML = Math.round(
     response.data.main.temp
+  );
+  document.querySelector("#weather-description").innerHTML =
+    response.data.weather[0].description;
+  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
   );
 }
 function search(city) {
