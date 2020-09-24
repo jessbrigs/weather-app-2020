@@ -22,6 +22,7 @@
 
 .submit-button {
   position: relative;
+  margin-left: -35px;
   border-radius: 25px;
   padding: 10px 15px;
   background-color: #ffffff;
@@ -34,6 +35,8 @@
 }
 .current-location-btn {
   position: relative;
+  margin-left: -35px;
+  width: 135px;
   border-radius: 25px;
   padding: 10px 15px;
   background-color: #ffffff;
@@ -96,7 +99,20 @@ li {
   text-transform: capitalize;
 }
 
+.weather-description {
+  font-weight: bolder;
+}
+
 .container-wrapper {
   max-width: 650px;
   margin: 30px auto;
+}
+
+.units .active {
+  color: black;
+  cursor: default;
+}
+
+.units .active:hover {
+  text-decoration: none;
 }
