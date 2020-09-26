@@ -81,10 +81,30 @@
   margin-bottom: -30px;
 }
 .forecast {
-  font-size: 16px;
+  margin-top: 10px;
+}
+
+.forecast h3 {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
+  padding-top: 15px;
+}
+
+.weather-forecast {
+  text-align: center;
+  color: black;
   font-weight: 400;
-  padding: 40px 10px 40px 10px;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.forecast img {
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
 }
 
 ul {
