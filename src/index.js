@@ -88,7 +88,7 @@ function displayForecast(response) {
   for (let index = 0; index < 4; index++) {
     forecast = response.data.list[index];
     forecastElement.innerHTML += `
-          <div class="col-2">
+          <div class="col-3">
           <h3>
             ${formatHours(forecast.dt * 1000)}
            </h3>
@@ -96,9 +96,7 @@ function displayForecast(response) {
               forecast.weather[0].icon
             }@2x.png" />
             <div class="weather-forecast">
-            <strong>${Math.round(
-              forecast.main.temp_max
-            )}°C</strong> | ${Math.round(forecast.main.temp_min)}°C
+            <strong>H: ${Math.round(forecast.main.temp_max)}°C</strong> 
           </div>
         </div>
   `;

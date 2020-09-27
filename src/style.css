@@ -5,7 +5,7 @@
   padding: 40px;
   border: 1px solid #757575;
   border-radius: 10px;
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-image: linear-gradient(to top, #ffe2e2 20%, #f6f6f6 80%);
 }
 
 .form-location {
@@ -28,7 +28,7 @@
   background-color: #ffffff;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
   border: none;
-  color: #757575;
+  color: black;
   font-size: 14px;
   font-weight: 300;
   transition: 0.2ms ease-in-out;
@@ -42,7 +42,7 @@
   background-color: #ffffff;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
   border: none;
-  color: #757575;
+  color: black;
   font-size: 14px;
   font-weight: 300;
   transition: 0.2ms ease-in-out;
@@ -52,6 +52,7 @@
   text-align: left;
   padding: 20px 0 20px 0;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .location .city {
@@ -80,19 +81,19 @@
   margin-left: -270px;
   margin-bottom: -30px;
 }
-.forecast {
-  margin-top: 10px;
-}
 
 .forecast h3 {
   color: black;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
-  padding-top: 15px;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 50px;
 }
 
 .weather-forecast {
+  padding-top: 10px;
   text-align: center;
   color: black;
   font-weight: 400;
@@ -103,8 +104,9 @@
 
 .forecast img {
   margin: 0 auto;
-  height: 48px;
-  width: 48px;
+  display: block;
+  height: 64px;
+  width: 64px;
 }
 
 ul {
