@@ -1,5 +1,5 @@
 .container {
-  max-width: 650px;
+  max-width: 600px;
   font-family: "Roboto", sans-serif;
   margin-top: 100px;
   padding: 40px;
@@ -9,7 +9,7 @@
 }
 
 .form-location {
-  width: 300px;
+  width: 250px;
   border-radius: 25px;
   padding: 10px;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
@@ -22,7 +22,7 @@
 
 .submit-button {
   position: relative;
-  margin-left: -35px;
+  margin-left: -55px;
   border-radius: 25px;
   padding: 10px 15px;
   background-color: #ffffff;
@@ -35,7 +35,7 @@
 }
 .current-location-btn {
   position: relative;
-  margin-left: -35px;
+  margin-left: -60px;
   width: 135px;
   border-radius: 25px;
   padding: 10px 15px;
@@ -126,7 +126,7 @@ li {
 }
 
 .container-wrapper {
-  max-width: 650px;
+  max-width: 600px;
   margin: 30px auto;
 }
 
